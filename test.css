@@ -1,0 +1,27 @@
+.box1 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    z-index: 101;
+    position: absolute;
+}
+
+.box2 {
+    background-color: red;
+    height: 120px;
+    width: 120px;
+    z-index: 100;
+    position: absolute;
+}
+
+.box3 {
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    z-index: -201;
+    position: absolute;
+}
+
+.wrapper{
+    position: relative;
+}
